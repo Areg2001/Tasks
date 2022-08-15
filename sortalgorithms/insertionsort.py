@@ -1,6 +1,3 @@
-from dis import Instruction
-
-
 def insertionSort(lst):
     for idx in range(1, len(lst)):
         key = lst[idx]
